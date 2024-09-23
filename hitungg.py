@@ -4,7 +4,7 @@ x = st.number_input("Masukan Angka")
 sx = st.text_input("Satuan C", "C")
 st.write ("Anda memasukkan", x, ' ',sx)
 sy = st.text_input("Dikonversi ke", "C")
-if(satuan == "C"):
+if(Satuan == "C"):
   if(konversi == "C"):
    print(x, " C = ", x, "C")
   elif(konversi == "F"):
