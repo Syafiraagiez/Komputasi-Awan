@@ -5,8 +5,8 @@ sx = st.text_input("Satuan", "C")
 st.write ("Anda memasukkan", x,' ',sx)
 sy = st.text_input("Dikonversi ke", "C")
 y = 0
-if (sx == 'C');
-  if(sy == 'C');
+if (sx == 'C'):
+  if(sy == 'C'):
     y = x
   elif(sy == 'F'):
     (9/5) * x + 32
