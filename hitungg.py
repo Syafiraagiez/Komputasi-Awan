@@ -14,7 +14,7 @@ if (sx == 'C'):
 if (sx == 'C'):
   if(sy == 'C'):
     y = x
-  elif(sy == 'R):
+  elif(sy == 'R'):
     (x-32)*4/9
        
 st.write (x,' ',sx, ' = ',y, sy)
