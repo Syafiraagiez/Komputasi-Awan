@@ -11,6 +11,9 @@ if (sx == 'C'):
   elif(sy == 'F'):
     (9/5) * x + 32
 
+st.write ("Anda memasukkan", x,' ',sx)
+sy = st.text_input("Dikonversi ke", "C")
+y = 0
 if (sx == 'C'):
   if(sy == 'C'):
     y = x
