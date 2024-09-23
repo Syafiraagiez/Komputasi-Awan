@@ -1,6 +1,6 @@
 import streamlit as st
 
-x = st.numer_input(
+x = st.number_input(
   "insert a number", value=None, placeholder="Type a number..."
 )
 st.write("The current number is ", x)
